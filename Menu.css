@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .Cabeçalho
 {
     background-color: rgb(223, 197, 157);
@@ -10,3 +11,91 @@
     display: flex;
     justify-content: space-between;
 }
+=======
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+}
+
+.Cabeçalho
+{
+    background-color: rgb(223, 197, 157);
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo
+{
+    width: 200px;
+    height: 25px;
+    margin-top: 13px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 300px;
+    font-variant: normal;
+}
+
+.conjuntoCaixas
+{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixas
+{
+    display: flexbox;
+    margin: 7px 10px 20px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px #c9bdab;
+}
+
+.caixasTitle
+{
+    margin: 0px 0px 5px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+}
+
+.caixasText
+{
+    width: 300px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.buttom
+{
+    background: rgb(250, 228, 195);
+    color: #b48947;
+    border: 1px solid rgb(202, 160, 97);
+    padding: 5px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.copyright
+{
+    width: 420px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.copyrightTeam
+{
+    width: 160px;
+    margin: auto;
+    font-size: 12px;
+}
+>>>>>>> Stashed changes
