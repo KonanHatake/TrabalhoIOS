@@ -1,0 +1,36 @@
+body
+{
+    background-image: url(mitologia-grega-livros.jpg);
+}
+.mitologuia
+{
+    width: 200px;
+    height: 25px;
+    margin-top: 13px;
+}
+h1
+{
+    margin-left: 300px;
+    color: #e9d3c0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p
+{
+    background-color: #e9d3c0;
+    color: #a18167;
+    border: solid;
+    padding: 10px;
+    width: 500px;
+    margin-left: 150px;
+}
+.imagem
+{
+    width: 200px;
+    border-radius: 150px;
+    height: 200px;
+    margin-left: 700px;
+    border: solid #a18167;
+    text-align: left;
+}
+
