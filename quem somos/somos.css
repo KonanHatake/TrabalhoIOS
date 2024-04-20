@@ -2,11 +2,36 @@ body
 {
     background-image: url(mitologia-grega-livros.jpg);
 }
-.mitologuia
+
+header img
+{
+    width: 70px;
+    height: auto;
+    
+
+}
+
+.Cabeçalho
+{
+    background-color: rgb(223, 197, 157);
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo
 {
     width: 200px;
     height: 25px;
     margin-top: 13px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 300px;
+    font-variant: normal;
 }
 h1
 {
@@ -23,14 +48,34 @@ p
     padding: 10px;
     width: 500px;
     margin-left: 150px;
+    display: flex;
 }
+
+.text2
+{
+    display: flex;
+}
+
 .imagem
 {
     width: 200px;
     border-radius: 150px;
     height: 200px;
     margin-left: 700px;
-    border: solid #a18167;
-    text-align: left;
+    text-align: center;
+}
+
+.copyright
+{
+    width: 420px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.copyrightTeam
+{
+    width: 160px;
+    margin: auto;
+    font-size: 12px;
 }
 
