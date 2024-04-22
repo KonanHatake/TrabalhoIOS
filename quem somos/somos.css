@@ -1,21 +1,25 @@
 body
 {
-    background-image: url(mitologia-grega-livros.jpg);
+    background: rgb(233,211,192);
+    background: linear-gradient(90deg, rgba(233,211,192,1) 0%, rgba(209,183,161,1) 35%, rgba(161,129,103,1) 100%);
 }
 
 header img
 {
     width: 70px;
     height: auto;
-    
-
 }
 
 .Cabeçalho
 {
-    background-color: rgb(223, 197, 157);
+
     display: flex;
     justify-content: space-around;
+
+    color: white;
+    padding-left: 10px;
+    background-size: 100%;
+    
 }
 
 .Logo
@@ -23,6 +27,11 @@ header img
     width: 200px;
     height: 25px;
     margin-top: 13px;
+    margin-right: 1000px;
+    border: solid #a18167;
+    background-color: #e9d3c0;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .buttons
@@ -32,15 +41,18 @@ header img
     list-style: none;
     width: 300px;
     font-variant: normal;
+    
 }
 h1
 {
     margin-left: 300px;
-    color: #e9d3c0;
+    color: #a18167;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p
+
+
+.text
 {
     background-color: #e9d3c0;
     color: #a18167;
@@ -49,12 +61,11 @@ p
     width: 500px;
     margin-left: 150px;
     display: flex;
+    border-radius: 10px;
+    
 }
 
-.text2
-{
-    display: flex;
-}
+
 
 .imagem
 {
@@ -63,6 +74,17 @@ p
     height: 200px;
     margin-left: 700px;
     text-align: center;
+    display: flex;
+    Border-Radius: 100%
+}
+
+.imagem2
+{
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    text-align: left;
+    display: flex;
 }
 
 .copyright
@@ -70,6 +92,7 @@ p
     width: 420px;
     margin: auto;
     font-size: 16px;
+
 }
 
 .copyrightTeam
