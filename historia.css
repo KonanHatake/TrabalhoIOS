@@ -1,3 +1,4 @@
+
 *
 {
     margin: 0;
@@ -11,21 +12,60 @@
 }
 
 body {
-    background-color: #b37f54;
+    background-color: #ffe1b5;
     margin: 0;
     padding: 0;
 
 }
 
-.cabeçalho {
-    height: 50vh;
+/*Header Items*/
+
+header
+{
+    height: 500px;
     width: 100%;
-    color: white;
-    background-image: url(Mitologia\ grega\ -\ Lendas\ e\ Mitos\ gregos\ Check\ more\ at\ https___demonstre_com_mitologia-grega_.jpeg);
+    background-image: image-set("background.png");
+    background-size: 100% 100%;
+}
+
+.Cabeçalho
+{
+    background-color: #cfa05a;
     display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    background-size: 100%;/*corte da imagem ajustado na tela*/
+    justify-content: space-around;
+}
+
+.Logo
+{
+    width: 200px;
+    height: 25px;
+    margin-top: 13px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 350px;
+    font-variant: normal;
+    padding: 0%;
+    margin: auto 0px ;
+}
+
+.buttom
+{
+    display: flex;
+    color: #ffffff;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.buttom:hover
+{
+    background-color: #ffe1b57c;
+    transform: scale(1);
 }
 
 .título {
@@ -44,16 +84,18 @@ body {
     position: absolute;
     bottom: 35%;
     line-height: 120px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
 }
+
  .grega {
     font-size: 100px;
-    color: #271608
+    color: #271608;
  }
 
  .começo, .primitivo{
     color: white;
     width: 600px;
-    background-color: #864425;
+    background-color: #864425b7;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
@@ -63,8 +105,36 @@ body {
  aside {
     color: white;
     width: 600px;
-    background-color:#864425;
+    background-color:#864425b7;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
+ }
+
+
+ footer
+ {
+     background-color: #cfa05a;
+     display: flex;
+     justify-content: space-around;
+     height: 200px;
+ }
+ 
+ .footerItems
+ {
+     margin: auto;
+ }
+ 
+ .copyright
+ {
+     width: 160px;
+     margin: 15 auto;
+     font-size: 16px;
+ }
+ 
+ .copyrightTeam
+ {
+     width: 160px;
+     margin: 15 auto;
+     font-size: 12px;
  }
