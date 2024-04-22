@@ -1,3 +1,5 @@
+/*General Items*/
+
 body
 {
     margin: 0px;
@@ -5,14 +7,11 @@ body
     background-color: #ffe1b5;
 }
 
-.Cabeçalho
-{
-    background-color: #cfa05a;
-    display: flex;
-    justify-content: space-around;
-}
 
-nav
+
+/*Header Items*/
+
+header
 {
     height: 500px;
     width: 100%;
@@ -20,17 +19,11 @@ nav
     background-size: 100% 100%;
 }
 
-footer
+.Cabeçalho
 {
     background-color: #cfa05a;
     display: flex;
     justify-content: space-around;
-    height: 200px;
-}
-
-.footerItems
-{
-    margin: auto;
 }
 
 .Logo
@@ -50,6 +43,25 @@ footer
     padding: 0%;
     margin: auto 0px ;
 }
+
+.buttom
+{
+    display: flex;
+    color: #ffffff;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.buttom:hover
+{
+    background-color: #ffe1b57c;
+    transform: scale(1);
+}
+
+
+
+/*Body Items*/
 
 .conjuntoCaixas
 {
@@ -76,6 +88,12 @@ footer
     border-radius: 10%;
 }
 
+.linkButtom
+{
+    color: #a77f43;
+    text-decoration: none;
+}
+
 .caixasTitle
 {
     margin: 0px 0px 5px;
@@ -93,25 +111,21 @@ footer
     font-size: 14px;
 }
 
-.linkButtom
-{
-    color: #a77f43;
-    text-decoration: none;
-}
 
-.buttom
+
+/*Footer Items*/
+
+footer
 {
+    background-color: #cfa05a;
     display: flex;
-    color: #ffffff;
-    padding: 3px;
-    text-decoration: none;
-    font-family: Impact, Haettenschweiler, sans-serif;
+    justify-content: space-around;
+    height: 200px;
 }
 
-.buttom:hover
+.footerItems
 {
-    background-color: #ffe1b57c;
-    transform: scale(1);
+    margin: auto;
 }
 
 .copyright
@@ -127,4 +141,3 @@ footer
     margin: 15 auto;
     font-size: 12px;
 }
-
