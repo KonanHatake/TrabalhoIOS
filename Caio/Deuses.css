@@ -1,0 +1,172 @@
+/*General Items*/
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffe1b5;
+}
+
+
+
+/*Header Items*/
+.Cabeçalho
+{
+    background-color: #cfa05a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo
+{
+    width: 200px;
+    height: 25px;
+    margin-top: 13px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 350px;
+    font-variant: normal;
+    padding: 0%;
+    margin: auto 0px ;
+}
+
+.buttom
+{
+    display: flex;
+    color: #ffffff;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.buttom:hover
+{
+    background-color: #ffe1b57c;
+    transform: scale(1);
+}
+
+
+
+/*Body Items*/
+
+.conjuntoCaixas
+{
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: space-around;
+}
+
+.caixaZeus
+{
+    display: flex;
+    margin: 7px 10px 20px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #ffeaca;
+}
+
+.caixaZeus:hover
+{
+    display: flex;
+    transform: scale(1.05, 1.05);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    transition: transform 100ms;
+}
+
+.caixaPoseidon
+{
+    display: flex;
+    margin: 7px 10px 20px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #ffeaca;
+
+}
+
+.caixaPoseidon:hover
+{
+    display: flex;
+    transform: scale(1.05, 1.05);
+    background-color: rgb(207, 255, 255);
+    border-radius: 10%;
+    transition: transform 100ms;
+}
+
+.caixaHades
+{
+    display: flex;
+    margin: 7px 10px 20px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #ffeaca;
+}
+
+.caixaHades:hover
+{
+    display: flex;
+    transform: scale(1.05, 1.05);
+    background-color: rgb(221, 207, 255);
+    border-radius: 10%;
+    transition: transform 100ms;
+}
+
+.linkButtom
+{
+    color: #a77f43;
+    text-decoration: none;
+}
+
+.caixasTitle
+{
+    margin: 0px 0px 5px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+}
+
+.caixasText
+{
+    width: 300px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+
+
+/*Footer Items*/
+
+footer
+{
+    background-color: #cfa05a;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.footerItems
+{
+    margin: auto;
+}
+
+.copyright
+{
+    width: 160px;
+    margin: 15 auto;
+    font-size: 16px;
+}
+
+.copyrightTeam
+{
+    width: 160px;
+    margin: 15 auto;
+    font-size: 12px;
+}
