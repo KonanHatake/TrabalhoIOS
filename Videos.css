@@ -10,21 +10,11 @@ body
 }
 
 /*Header Items*/
-
-header
-{
-    height: 500px;
-    width: 100%;
-    background-image: image-set('background.png');
-    background-size: 100% 100%;
-}
-
 .Cabeçalho
 {
-    position: fixed;
     width: 100%;
     height: 55px;
-    background-color: #cfa05a;
+    background-color: #cf855a;
     background-image: image-set('cabecalhoDecora.png');
     background-size: 100%;
     background-position: top;
@@ -38,7 +28,7 @@ header
     height: 25px;
     margin-top: 13px;
     padding: 5px;
-    background-color: #cfa05aaf;
+    background-color: #cf855aaf;
 }
 
 .buttons
@@ -97,69 +87,41 @@ button
 
 
 /*Body Items*/
-.conjuntoCaixas
+
+.CenterT1
 {
-    width: 1020px;
-    margin: auto;
+    width: 390px;
     display: flex;
-    flex-direction: space-around;
+    margin: 20px auto 10px;
 }
 
-.conjuntoCaixas2
+.CenterT2
 {
-    width: 680px;
+    width: 390px;
+    display: flex;
+    margin: 20px auto 10px;
+}
+
+.CenterT3
+{
+    width: 590px;
+    display: flex;
+    margin: 20px auto 10px;
+}
+
+.video1
+{
+    width: 50%;
+    display: flex;
     margin: auto auto 20px;
-    display: flex;
-    flex-direction: center;
 }
-
-.caixas
-{
-    display: flex;
-    margin: 7px 10px 20px;
-    padding: 10px;
-    border-radius: 10%;
-    background-color: #ffeaca;
-}
-
-.caixas:hover
-{
-    display: flex;
-    transform: scale(1);
-    background-color: aliceblue;
-    border-radius: 10%;
-}
-
-.linkButtom
-{
-    color: #a77f43;
-    text-decoration: none;
-}
-
-.caixasTitle
-{
-    margin: 0px 0px 5px;
-    width: 300px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: bold;
-}
-
-.caixasText
-{
-    width: 300px;
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-}
-
 
 
 /*Footer Items*/
 
 footer
 {
-    background-color: #cfa05a;
+    background-color: #cf895a;
     display: flex;
     justify-content: space-around;
     height: 200px;
