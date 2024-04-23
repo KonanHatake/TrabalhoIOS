@@ -10,12 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(Background.png) no-repeat;
+    background: url(download1.jfif) no-repeat;
     background-size: cover;
     background-position: center;
     
 }
 
+a{
+    text-decoration: none;
+}
 .wrapper{
     width: 420px;
     background: transparent;
@@ -71,17 +74,17 @@ body {
     margin: -15px 0 15px;
 }
 
-.remember-forgot label input{
+.rememeber-forgot label input{
     accent-color: #fff;
     margin-right: 3px;
 }
 
-.remember-forgot a{
+.rememeber-forgot a{
     color: #fff;
     text-decoration: none;
 }
 
-.remember-forgot a:hover{
+.rememeber-forgot a:hover{
     text-decoration: underline;
 }
 
