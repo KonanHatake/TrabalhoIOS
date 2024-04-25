@@ -9,6 +9,7 @@
 .TITULO{
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
 body {
