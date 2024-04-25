@@ -1,0 +1,407 @@
+/*General Items*/
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffe1b5;
+    background-image: image-set('texture.png');
+    background-size: 830px;
+}
+
+/*Header Items*/
+
+.Cabeçalho
+{
+    width: 100%;
+    height: 55px;
+    background-color: #cf895a;
+    background-image: image-set('cabecalhoDecora.png');
+    background-size: 100%;
+    background-position: top;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo
+{
+    width: 200px;
+    height: 25px;
+    margin: 15px 8%;
+    padding: 0px 0px 5px 10px;
+    background-color: rgba(189, 118, 71, 0.686)
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 70%;
+    height: 100%;
+    font-variant: normal;
+    padding: 3px 2% 3px 2%;
+    margin: auto 0px ;
+}
+
+.buttom
+{
+    margin: auto auto;
+    color: white;
+    padding: 3px 5px 3px;
+    height: 74%;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    font-family: "Almendra SC", serif;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+}
+
+.buttom:hover
+{
+    color: #ffe7c2;
+}
+
+button
+{
+    height: 32px;
+    width: 30px;
+    margin: auto auto;
+}
+.formulário
+{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%, 5%;
+    width: 90px;
+    margin: auto auto ;
+}
+
+.buttomF
+{
+    background-color: #f3c198;
+    color: white;
+    padding: 0px 10px 12px;
+    height: 25px;
+    width: 90px;
+    border: none;
+    text-decoration: none;
+    font-family: cursive, serif;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.buttomF:hover
+{
+    background-color: #dba27c;
+}
+
+
+/*Body Items*/
+.conjuntoCards
+{
+    margin: 20px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.MedusaCard {
+    background-color: transparent;
+    width: 340px;
+    height: 440px;
+    perspective: 1000px;
+  }
+  
+  .MedusaCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .MedusaCard:hover .MedusaCardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .MedusaCardFrente, .MedusaCardAtras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .MedusaCardFrente {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .MedusaCardAtras {
+    background: linear-gradient(0deg, rgba(103,182,141,1) 0%, rgba(0,87,46,1) 100%);
+    color: rgb(125, 255, 201);
+    transform: rotateY(180deg);
+  }
+
+
+
+  .CerberusCard {
+    background-color: transparent;
+    width: 340px;
+    height: 440px;
+    perspective: 1000px;
+  }
+  
+  .CerberusCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .CerberusCard:hover .CerberusCardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .CerberusCardFrente, .CerberusCardAtras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .CerberusCardFrente {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .CerberusCardAtras {
+    background: linear-gradient(180deg, rgba(54,52,99,1) 41%, rgb(131, 129, 160) 100%);
+    color: rgb(136, 251, 255);
+    transform: rotateY(180deg);
+  }
+
+
+  
+  .ChronosCard {
+    background-color: transparent;
+    width: 340px;
+    height: 440px;
+    perspective: 1000px;
+  }
+  
+  .ChronosCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .ChronosCard:hover .ChronosCardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .ChronosCardFrente, .ChronosCardAtras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .ChronosCardFrente {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .ChronosCardAtras {
+    background: linear-gradient(0deg, rgba(0,150,235,1) 0%, rgba(0,232,255,1) 100%);
+    color: rgb(210, 253, 255);
+    transform: rotateY(180deg);
+  }
+
+
+  
+.AchillesCard {
+    background-color: transparent;
+    width: 340px;
+    height: 440px;
+    perspective: 1000px;
+}
+  
+.AchillesCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.AchillesCard:hover .AchillesCardInner {
+    transform: rotateY(180deg);
+}
+  
+.AchillesCardFrente, .AchillesCardAtras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.AchillesCardFrente {
+    background-color: #bbb;
+    color: black;
+}
+  
+.AchillesCardAtras {
+    background: linear-gradient(0deg, rgba(235,110,0,1) 0%, rgba(255,244,0,1) 58%);
+    color: rgb(126, 98, 37);
+    transform: rotateY(180deg);
+}
+
+
+
+.AtlasCard {
+    background-color: transparent;
+    width: 340px;
+    height: 440px;
+    perspective: 1000px;
+}
+  
+.AtlasCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.AtlasCard:hover .AtlasCardInner {
+    transform: rotateY(180deg);
+}
+  
+.AtlasCardFrente, .AtlasCardAtras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.AtlasCardFrente {
+    background-color: #bbb;
+    color: black;
+}
+  
+.AtlasCardAtras {
+    background: linear-gradient(0deg, rgba(144,79,255,1) 0%, rgba(75,233,255,1) 100%);
+    color: rgb(215, 252, 255);
+    transform: rotateY(180deg);
+}
+
+
+  
+.ThanatosCard {
+    background-color: transparent;
+    width: 340px;
+    height: 440px;
+    perspective: 1000px;
+}
+  
+.ThanatosCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.ThanatosCard:hover .ThanatosCardInner {
+    transform: rotateY(180deg);
+}
+  
+.ThanatosCardFrente, .ThanatosCardAtras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.ThanatosCardFrente {
+    background-color: #bbb;
+    color: black;
+}
+  
+.ThanatosCardAtras{
+    background: linear-gradient(0deg, rgba(165,103,182,1) 0%, rgba(58,0,87,1) 100%);
+    color: rgb(253, 194, 255);
+    transform: rotateY(180deg);
+}
+
+
+.CardText
+{
+    padding: 10px;
+    text-align: justify;
+}
+
+/*Footer Items*/
+
+footer
+{
+    background-color: #cf895a;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.footerItems
+{
+    margin: auto;
+}
+
+.copyright
+{
+    width: 160px;
+    margin: 15 auto;
+    font-size: 16px;
+}
+
+.copyrightTeam
+{
+    width: 160px;
+    margin: 15 auto;
+    font-size: 12px;
+}
+
+.iconFooter
+{
+    padding: 5px;
+}
+
+.iconFooter:hover
+{
+    background-color: rgba(255, 255, 255, 0.719);
+}

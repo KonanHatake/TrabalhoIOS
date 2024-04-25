@@ -109,63 +109,38 @@ button
 }
 
 
+
 /*Body Items*/
-.conjuntoCaixas
-{
-    width: 1020px;
-    margin: auto;
-    display: flex;
-    flex-direction: space-around;
-}
 
-.conjuntoCaixas2
+.CenterT1
 {
-    width: 680px;
-    margin: auto auto 20px;
-    display: flex;
-    flex-direction: center;
-}
-
-.caixas
-{
-    display: flex;
-    margin: 7px 10px 20px;
-    padding: 10px;
-    border-radius: 10%;
-    background-color: #ffeaca;
-}
-
-.caixas:hover
-{
-    display: flex;
-    transform: scale(1);
-    background-color: aliceblue;
-    border-radius: 10%;
-}
-
-.linkButtom
-{
-    color: #a77f43;
-    text-decoration: none;
-}
-
-.caixasTitle
-{
-    margin: 0px 0px 5px;
-    width: 300px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: bold;
+    width: 387px;
+    display: flex;
+    margin: 20px auto 10px;
 }
 
-.caixasText
+.CenterT2
 {
-    width: 300px;
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    text-align: center;
+    width: 258px;
+    display: flex;
+    margin: 20px auto 10px;
 }
 
+.CenterT3
+{
+    text-align: center;
+    width: 558px;
+    display: flex;
+    margin: 20px auto 10px;
+}
+
+.video1
+{
+    display: flex;
+    margin: auto auto 20px;
+}
 
 
 /*Footer Items*/
